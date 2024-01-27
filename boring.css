@@ -1,0 +1,525 @@
+body {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Outfit', sans-serif;
+    background-image: url("images/background4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#myModal {
+    /* Hidden by default */
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: #5a1e137d; */
+}
+  
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-height: 100%;
+}
+
+
+
+#heading {
+    margin-bottom: 200px;
+}
+h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+#welcome {
+    display: inline-block;
+    float: left;
+}
+#gleek {
+    display: inline-block;
+    float: right;
+
+}
+#lit {
+    float: right;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50%;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+}
+#lit:hover {
+    background-color: #db1d00;
+    border-color: #db1d00;
+    cursor: pointer;
+}
+#heading {
+    display: flex;
+    /* background-color: aqua; */
+}
+#wiki {
+    /* background-color: grey; */
+    margin-bottom: 150px;
+}
+#wikiQ {
+    display:flex;
+    /* background-color: bisque; */
+    font-size: 30px;
+    font-weight: bold;
+}
+#wiki p {
+    float: center;
+}
+#wikiA {
+    display:flex;
+    /* background-color: bisque; */
+    font-size: 30px;
+    font-weight: bold;
+    float: center;
+    margin: auto;
+    padding-left: 150px;
+}
+#you {
+    margin: auto;
+    background-image: url("images/youreagleek.jpg");
+    height: 550px;
+    width: 900px;
+    background-size: 50%;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+#you p {
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+#title {
+    margin-left: -50px;
+    margin-bottom: 30px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    box-shadow: -10px 10px;
+    text-align: left;
+    width: 440px;
+
+}
+.quote {
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    width: 420px;
+    background-color: #db1d00;
+    box-shadow: 10px 10px black;
+    color: white;
+}
+
+#history {
+    margin-top: 50px;
+    display:flex;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+#perf {
+    /* display: flex; */
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+
+}
+#perf p{
+    font-size: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 1000px;
+}
+.perfBox {
+    background-color: aliceblue;
+    width: 450px;
+    height: 300px;
+}
+#believin {
+    background-image: url(images/believin_A.jpg);
+    background-size: 100%;
+}
+#empire {
+    background-image: url(images/empire_A.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(mesh)

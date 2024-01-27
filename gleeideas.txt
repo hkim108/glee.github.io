@@ -1,0 +1,25 @@
+website ideas:
+1. ranking of national/competition performances
+2. ed sheeren singing
+3. you just got slusheed!
+4. match the character to their name
+
+most motherr performances
+1. teenage dream - blaine
+2. empire state of mind
+3. forget you
+4. lets have a kiki
+5. its not right but its ok
+
+API ideas:
+- spotify api to display most motherr songs
+- wiki api? to show most popular searched character/song/episode
+- imdb api
+
+backend ideas:
+- leaderboard
+- store people's ranks of characters and display
+
+
+ice spice:
+1. get spiced button

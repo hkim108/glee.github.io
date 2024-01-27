@@ -1,0 +1,99 @@
+body {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/amazingbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#arrow {
+    width: 70px;
+    margin-left: -70px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+#arrow:hover {
+    cursor: pointer;
+}
+.title {
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 50px;
+}
+h1 {
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 125px;
+    margin: 0px;
+
+}
+#jbi {
+    display: block;
+    background-image: url("images/jbi.PNG");
+    height: 772px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 200px;
+}
+#jbi p{
+    font-family: 'Trispace', sans-serif;    
+    font-size: 30px;
+    color: white;
+    margin-left: 600px;
+    margin-right: 100;
+    margin-top: 100px;
+    padding-left: 10px;
+    background-color: rgba(56, 56, 56, 0.637);
+}
+#cast {
+    display: block;
+    width: 1300px;
+    height: 1200px;
+}
+#cast h2{
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 80px;
+    color: white;
+}
+.ed{
+    float: left;
+    /* background-image: url("images/ed.png"); */
+    width: 100px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+#cast img{
+    width: 200px;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    display: flex;
+
+}
+.ed:hover{
+    cursor: pointer;
+}
+#perf {
+    display: block;
+    margin-bottom: 100px;
+}
+#perf h2{
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 80px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#perf a{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
